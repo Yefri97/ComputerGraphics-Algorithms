@@ -27,7 +27,7 @@ def draw_origin(sc, color, border):
     pygame.draw.line(sc, color, [xcar(-width/2), ycar(0)], [xcar(width/2), ycar(0)], border)
     pygame.draw.line(sc, color, [xcar(0), ycar(-height/2)], [xcar(0), ycar(height/2)], border)
 
-# MidPoint circle algorithm
+# MidPoint circle algorithm :)
 def drawCircle(p, r, color):
     x = r
     y = 0
